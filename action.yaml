@@ -1,0 +1,11 @@
+name: Clone repository
+
+description: Clone a public or private repository. If repository is private, ssh authentication is required
+
+outputs:
+  num-files:
+    description: 'Number os files in the cloned repository.'
+
+runs:
+  using: node16
+  main: invoke-binary.js
