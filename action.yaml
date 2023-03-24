@@ -1,10 +1,6 @@
-name: Clone repository
+name: Load tests
 
-description: Clone a public or private repository. If repository is private, ssh authentication is required
-
-outputs:
-  num-files:
-    description: 'Number os files in the cloned repository.'
+description: Execute load tests in a k8s cluster using k6 operator
 
 runs:
   using: node16
